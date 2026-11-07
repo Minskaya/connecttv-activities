@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="homekey_label">Touche Home vers Projectivy</string>
+    <string name="homekey_description">Intercepte uniquement la touche Home de la télécommande et ouvre Projectivy. Ne surveille aucune fenêtre : les sections du launcher SFR ouvertes depuis une tuile restent affichées.</string>
+</resources>

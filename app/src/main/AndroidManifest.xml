@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature android:name="android.software.leanback" android:required="true" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
+    <!-- Visibilité du package SFR (Android 11+) -->
+    <queries>
+        <package android:name="com.sfr.androidtv.launcher" />
+    </queries>
+
+    <!-- Label, bannière et activité : voir src/<flavor>/AndroidManifest.xml -->
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="false" />
+</manifest>
